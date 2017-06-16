@@ -1,0 +1,20 @@
+[
+  {
+    "model": "search.Airport",
+    "pk": 1,
+    "fields": {
+      "airport_city": "Atlanta",
+      "airport_name": "Hartsfield Jackson Atlanta International",
+      "airport_code": "ATL"
+    }
+  },
+  {
+    "model": "search.Airport",
+    "pk": 2,
+    "fields": {
+      "airport_city": "Beijing",
+      "airport_name": "Beijing Capital International",
+      "airport_code": "PEK"
+    }
+  }
+]

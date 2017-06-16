@@ -1,0 +1,97 @@
+.booking {
+}
+
+#booking_form {
+    
+    background-color: #FBFBFB;
+    color: #2D3A3A;
+    width: 800px;
+    padding: 20px;
+    margin-top: 40px;
+}
+.alert.alert-danger {
+    font-size: 17px;
+    padding: 5px;
+}
+
+.booking label {
+    margin: 0px 5px 0px 0px;
+}
+.booking input {
+    color: #248232;
+}
+
+#id_sexField {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    list-style-type:none;
+    
+}
+#id_sexField li {
+    display: inline;
+    margin: 0px 5px 0px 0px;
+}
+
+
+
+#id_first_name {
+    padding: 0px;
+    margin-right: 30px;
+}   
+
+#id_second_name {
+    
+}
+
+#id_birthDate {
+    margin: 10px 400px 0px 0px;
+}
+
+#id_citizenship {
+    margin: 10px 400px 0px 0px;   
+}
+
+.booking select{
+    width: 230px;
+}
+
+#id_documentNum {
+    margin: 10px 20px 0px 0px;       
+}
+
+#id_validTo {
+    
+}
+
+#id_idNum {
+    margin: 10px 400px 0px 0px;       
+}
+
+#id_phone_country {
+    margin: 10px 0px 0px 0px;       
+    width: 65px;
+}
+
+#id_phone_number {
+    margin: 10px 300px 0px 0px;       
+}
+
+#id_email {
+    margin: 10px 0px 0px 0px;          
+}
+
+.booking button {
+    font-size: 22px;
+    width: 150px;
+}
+
+
+.return_success {
+    font-size: 50px;
+    margin: 200px 0px 30px;
+}
+
+.return_link {
+    color: #FBFBFB;
+    font-size: 24px;
+}

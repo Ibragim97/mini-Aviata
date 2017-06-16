@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', serif;
+    background-color: black;
+    color: #21C658;
+    font-size: 20px;
+    margin: 40px;
+}
+
+h1 {
+    font-family: 'Slabo 27px', serif;
+    font-size: 45px;
+}
+
+
+#id_origin_city {
+    margin: 10px 30px 15px 5px;
+    color: #073a00;
+    width: 150px;
+}
+
+#id_dest_city {
+    margin: 10px 40px 0px 5px;
+    color: #073a00;
+    width: 150px;
+}
+
+#id_date {
+    font-size: 20px;
+    width: 440px;
+    
+}
+
+button {
+    color: black;
+    margin: 15px 0px;
+    
+}
+
+#form {
+    width: 580px;
+    margin: 20px 0px 0px 0px;
+    padding: 5px 0px 10px 15px;
+    border: 2px solid green;
+    border-radius: 7px;
+    background-color: #1F2421;
+}
+
+.results_head  {
+    font-family: 'Slabo 27px', serif;
+    width: auto;
+    margin: 0px 0px 50px -5px;   
+    padding: 5px 0px 5px 10px;
+    border-radius: 5px;
+    font-size: 30px;
+
+}
+
+.results_head h2 {
+    margin: 0px 0px 0px 0px;
+
+}
+
+.results_head h3 {
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    color: white; 
+}
+
+.item {
+    max-width: 700px;
+    list-style-type:none;
+    margin: 15px 0px 15px 0px;
+
+    background-color: #FBFBFB;
+    color: #248232;
+    height: auto;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.item #airline {
+    color: #2D3A3A;
+    font-size: 27px;
+    margin: 10px 0px 2px 0px;
+}
+
+.item #date {
+    margin: 0px 0px 10px 0px;
+    font-weight: bold;
+    font-size: 19px;
+    color: #248232; 
+}
+
+.item a {
+    text-decoration:none;
+}
+
+.results_error {
+    margin: 50px 10px;
+}

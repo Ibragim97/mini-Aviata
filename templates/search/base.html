@@ -1,0 +1,33 @@
+{% load static %}
+
+<html>
+    <head>
+
+        {% block css %}
+        {% endblock %}
+
+           <!-- Google fonts -->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Slabo+27px">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+        
+        <!-- Static -->
+        <link rel="stylesheet" type="text/css" href="{% static 'search/css/style.css' %}" />
+
+        {% block post-css %}
+        {% endblock %}
+
+
+
+    </head>
+    
+    <body>
+        <main>
+            {% block content %}
+            {% endblock %}
+
+            {%block javascript %}
+            {% endblock %}
+
+        </main>
+    </body>
+</html>

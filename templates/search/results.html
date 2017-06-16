@@ -1,0 +1,33 @@
+{% extends 'search/base.html' %}
+
+{% block content %}
+
+    {% if error %}
+        <h2 class='results_error'> {{ error }} </h2>
+    {% else %}
+
+        <div class="results_head">
+             <h2>{{ from }}  →  {{ to }}</h2>
+             <h3> {{ when}} </h3>
+        </div>
+
+        {% if filter %}
+            <h3> Flight Results</h3>
+        
+            {% for f in filter %}
+                
+                <div  class="item">
+                    <a href="/booking/{{f.id}}">
+                        <h3 id="airline">{{f.airline_name }} </h3>
+                        <p id="date"> {{ f.dept_datetime }} - {{ f.arr_datetime}} </p>
+                    </a>
+                </div>
+                
+            {% endfor %}
+        {% else %}
+            <h2 class='results_error'> No results</h2>
+        {% endif %}
+    {% endif %}
+
+{% endblock %}
+

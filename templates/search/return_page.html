@@ -1,0 +1,18 @@
+{% extends 'search/base.html '%}
+
+{% block css %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'search/css/booking_style.css'%}"/>
+{% endblock %}
+
+
+{% block content %}
+    
+    <center>
+        {% if not error %}
+        <h1 class="return_success"> Successfully booked! </h1>
+        {% endif %}
+        <p> {{ message }} </p>
+        <a class="return_link"href = "/"> Return to the main page</a>
+    </center>    
+{% endblock %}
